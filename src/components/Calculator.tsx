@@ -15,7 +15,7 @@ const {result, expression} = useTypedSelector(state => state.calculator)
                     padding: 10, backgroundColor: '#7ec1ff',
                     width: '100%', height: 51.5,
                 }}>
-                    <p style={{fontSize: 24}}>{result}</p>
+                    <p style={{fontSize: 24}}> = {result}</p>
                 </Row>
                 <Row style={{
                     padding: 10, backgroundColor: '#c6c6f5',
