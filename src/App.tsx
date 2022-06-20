@@ -1,14 +1,12 @@
-import { Col, Row } from 'antd';
 import React from 'react';
 import './App.css';
+import Calculator from "./components/Calculator";
 
 const App = () => {
     return (
-        <Row align={'middle'} justify={'center'} className={'page'}>
-          <Col>
-              <p>calc</p>
-          </Col>
-        </Row>
+        <div className={'app'}>
+            <Calculator/>
+        </div>
     );
 };
 
